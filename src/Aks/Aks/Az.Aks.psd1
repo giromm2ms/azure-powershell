@@ -115,10 +115,7 @@ PrivateData = @{
         # IconUri = ''
 
         # ReleaseNotes of this module
-        ReleaseNotes = '* [Breaking Change] Removed parameter alias ''ClientIdAndSecret'' in ''New-AzAksCluster'' and ''Set-AzAksCluster''.
-* [Breaking Change] Changed the default value of ''NodeVmSetType'' in ''New-AzAksCluster'' from ''AvailabilitySet'' to ''VirtualMachineScaleSets''.
-* [Breaking Change] Changed the default value of ''NetworkPlugin'' in ''New-AzAksCluster'' from ''None'' to ''azure''.
-* [Breaking Change] Removed parameter ''NodeOsType'' in ''New-AzAksCluster'' as it supports only one value Linux.'
+        ReleaseNotes = '* Fixed the issue that user cannot use service principal to create a new Kubernetes cluster. [#13012]'
 
         # Prerelease string of this module
         # Prerelease = ''
